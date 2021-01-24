@@ -15,11 +15,11 @@ D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50086
+55799
 Successfully changed project path to: D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester
 D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,15 +35,15 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003611 seconds.
+Registered in 0.003599 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -52,7 +52,41 @@ Mono: successfully reloaded assembly
 - Completed reload, in  2.759 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000752 seconds.
+Registered in 0.000747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.893300 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.622800 ms  DeleteObjects: 0.073900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Camera/====CAMERA RIG====.prefab
+  artifactKey: Guid(788f1e03f79bdbf4aac41c45926bc423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Camera/====CAMERA RIG====.prefab using Guid(788f1e03f79bdbf4aac41c45926bc423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad224e3ce21796bfa5258ec287a3a15') in 0.059884 seconds
+  Import took 0.062276 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000904 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -62,49 +96,63 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1543.
+Total: 1.979300 ms (FindLiveObjects: 0.175800 ms CreateObjectMapping: 0.067600 ms MarkObjects: 1.669300 ms  DeleteObjects: 0.064900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 607.773347 seconds.
+  path: Assets/Scripts/Camera/CameraRigHandler.cs
+  artifactKey: Guid(c62303e705f07ae40b3ea255c8cc5d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/CameraRigHandler.cs using Guid(c62303e705f07ae40b3ea255c8cc5d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322badbd115f15802cb57c2c883ca755') in 0.030231 seconds
+  Import took 0.032546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264172 seconds.
+  path: Assets/Scripts/Camera/CameraSchemeSelector.cs
+  artifactKey: Guid(53a2d6087edbac34ca5ec35ea6c542c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/CameraSchemeSelector.cs using Guid(53a2d6087edbac34ca5ec35ea6c542c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cee79f8450befe9c295a6bc543982') in 0.013384 seconds
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
 - Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.4 MB.
-System memory in use after: 56.4 MB.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1537.
-Total: 2.030000 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.765800 ms  DeleteObjects: 0.071500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Camera/==== CAMERA RIG ==== Planet.prefab
-  artifactKey: Guid(7b707ab8e6524f442a2893437366fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Camera/==== CAMERA RIG ==== Planet.prefab using Guid(7b707ab8e6524f442a2893437366fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6a06b80d157070d714fbbd2479868e') in 0.054152 seconds
-  Import took 0.056511 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1545.
+Total: 1.870500 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.618600 ms  DeleteObjects: 0.051500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Prefabs/Camera
-  artifactKey: Guid(329de53460286114d891fba145878dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Camera using Guid(329de53460286114d891fba145878dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f8f8c5e2169cb1b480c0e5a39f6ca5') in 0.003700 seconds
-  Import took 0.005694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.104707 seconds.
-  path: Assets/Prefabs/Camera/CameraRigChanger.prefab
-  artifactKey: Guid(5c5eb538afd543c45baa60bc9cd18c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Camera/CameraRigChanger.prefab using Guid(5c5eb538afd543c45baa60bc9cd18c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c4cacb5a61f39d46eeb5c231c51f0b') in 0.076416 seconds
-  Import took 0.078642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.564231 seconds.
-  path: Assets/Prefabs/Camera/CamSchemeSelector.prefab
-  artifactKey: Guid(518a328f82152314b93bc2f5298a624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Camera/CamSchemeSelector.prefab using Guid(518a328f82152314b93bc2f5298a624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd3850c2a650d8271157deee46d2ebb') in 0.017388 seconds
-  Import took 0.024665 seconds .
+  Time since last request: 267.409508 seconds.
+  path: Assets/Scripts/Camera/CameraSchemeSelector.cs
+  artifactKey: Guid(53a2d6087edbac34ca5ec35ea6c542c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/CameraSchemeSelector.cs using Guid(53a2d6087edbac34ca5ec35ea6c542c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1664c3c4f3acf04d6c9c3350a7e0b9f8') in 0.005482 seconds
+  Import took 0.007726 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,222 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57705
+Successfully changed project path to: D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester
+D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/GameDesign/unity-camera.rig.tool/unity-camera.rig.tool/CameraRigToolTester/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003594 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.724 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1539.
+Total: 2.084500 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.798000 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Camera/CameraChanger.cs
+  artifactKey: Guid(878c71d622c48f349b0c5f114634e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/CameraChanger.cs using Guid(878c71d622c48f349b0c5f114634e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d80d7c5bd7b1506c03c9428d7aa3c8') in 0.043609 seconds
+  Import took 0.046332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 496.746230 seconds.
+  path: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials
+  artifactKey: Guid(cab0486873751c3439bc88f33c84dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials using Guid(cab0486873751c3439bc88f33c84dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241640bb7b4135dbccd2dc2234969df0') in 0.012292 seconds
+  Import took 0.021721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.748909 seconds.
+  path: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Skybox
+  artifactKey: Guid(e794d9bd7ccf473498946fa53f28db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Skybox using Guid(e794d9bd7ccf473498946fa53f28db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b18773f4d3953c0fd4a13e1a3371b') in 0.011706 seconds
+  Import took 0.019854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001655 seconds.
+  path: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Skybox
+  artifactKey: Guid(e794d9bd7ccf473498946fa53f28db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Skybox using Guid(e794d9bd7ccf473498946fa53f28db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b18773f4d3953c0fd4a13e1a3371b') in 0.010526 seconds
+  Import took 0.016595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.532515 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(1980d6dbe4e3e844bb4d4b8d4297721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1980d6dbe4e3e844bb4d4b8d4297721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68107c1ee2231c4583afcd8703231f90') in 0.013170 seconds
+  Import took 0.020772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.501077 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.006846 seconds
+  Import took 0.010205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.004366 seconds
+  Import took 0.006872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.180019 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(80d5da711820d8e4ebf23ebb30591dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(80d5da711820d8e4ebf23ebb30591dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b399c254e87de4c17861f1085c14c6d8') in 0.005070 seconds
+  Import took 0.007653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.632180 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6af5e472114493c44935ca9c502b01b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6af5e472114493c44935ca9c502b01b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266254fb2d3fc615eec21fd613084a2a') in 0.011841 seconds
+  Import took 0.017956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.733791 seconds.
+  path: Assets/Editor/CameraRigTool.cs
+  artifactKey: Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CameraRigTool.cs using Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22026f2bf458e26c402187f7b3613c41') in 0.004474 seconds
+  Import took 0.006751 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.9 MB.
+System memory in use after: 56.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 3.293800 ms (FindLiveObjects: 1.123600 ms CreateObjectMapping: 0.207800 ms MarkObjects: 1.899400 ms  DeleteObjects: 0.061000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1544.
+Total: 2.266300 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.944400 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2748.504373 seconds.
+  path: Assets/Editor/CameraRigTool.cs
+  artifactKey: Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CameraRigTool.cs using Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac797c2a35b6fdf95a2ffd7c42e11f') in 0.005922 seconds
+  Import took 0.008351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003790 seconds.
+  path: Assets/Editor/CameraRigTool.cs
+  artifactKey: Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CameraRigTool.cs using Guid(a048d6c5e5f0f8f42985a5ac869fe7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac797c2a35b6fdf95a2ffd7c42e11f') in 0.004156 seconds
+  Import took 0.006346 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

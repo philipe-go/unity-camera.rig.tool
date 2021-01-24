@@ -162,42 +162,42 @@ public class CameraRigHandler : MonoBehaviour
 
     void DownViewHandler()
     {
-        if (hasEngineer)
-        {
-            if (FindObjectOfType<EngineerHandler>().engineerMove)
-            {
-                vcamEngineer.SetActive(true);
-                vcamSphere.SetActive(false);
-                vcamCar.SetActive(false);
-            }
-        }
+        // if (hasEngineer)
+        // {
+        //     if (FindObjectOfType<EngineerHandler>().engineerMove)
+        //     {
+        //         vcamEngineer.SetActive(true);
+        //         vcamSphere.SetActive(false);
+        //         vcamCar.SetActive(false);
+        //     }
+        // }
 
-        if (hasSphere)
-        {
-            if (FindObjectOfType<SphereHandler>().sphereMove)
-            {
-                isTopView = true;
-                FindObjectOfType<AIUI>().ShowText($"As {GameManager.sphereName} is a remote controlled AI it has no downview Camera.");
-                //    vcamEngineer.SetActive(false);
-                //    vcamSphere.SetActive(true);
-                //    vcamCar.SetActive(false);
-            }
-        }
+        // if (hasSphere)
+        // {
+        //     if (FindObjectOfType<SphereHandler>().sphereMove)
+        //     {
+        //         isTopView = true;
+        //         FindObjectOfType<AIUI>().ShowText($"As {GameManager.sphereName} is a remote controlled AI it has no downview Camera.");
+        //         //    vcamEngineer.SetActive(false);
+        //         //    vcamSphere.SetActive(true);
+        //         //    vcamCar.SetActive(false);
+        //     }
+        // }
 
-        if (hasCar)
-        {
-            if (FindObjectOfType<CarHandler>().carMove)
-            {
-                vcamEngineer.SetActive(false);
-                vcamSphere.SetActive(false);
-                vcamCar.SetActive(true);
-            }
-        } 
-        else if (!hasCar && !hasEngineer && !hasSphere)
-        {
-            isTopView = true;
-            FindObjectOfType<AIUI>().ShowText($"You cannot use the first person view at this part of the game");
-        }
+        // if (hasCar)
+        // {
+        //     if (FindObjectOfType<CarHandler>().carMove)
+        //     {
+        //         vcamEngineer.SetActive(false);
+        //         vcamSphere.SetActive(false);
+        //         vcamCar.SetActive(true);
+        //     }
+        // } 
+        // else if (!hasCar && !hasEngineer && !hasSphere)
+        // {
+        //     isTopView = true;
+        //     FindObjectOfType<AIUI>().ShowText($"You cannot use the first person view at this part of the game");
+        // }
 
         stageCam.enabled = false;
         tpsCam.enabled = true;

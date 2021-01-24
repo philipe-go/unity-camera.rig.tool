@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿//author
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-//by Philipe Gouveia
 
 public class CameraChanger : MonoBehaviour
 {
@@ -18,19 +19,19 @@ public class CameraChanger : MonoBehaviour
     {
         if (stagePosHandler)
         {
-            if (other.gameObject.tag == GameManager.sphereTag) //did not put the engineer as the sphere will always be alongside the engineer
-            {
-                float direction = Vector3.Angle(transform.forward, (other.gameObject.transform.position - this.transform.position));
+            // if (other.gameObject.tag == GameManager.sphereTag) //did not put the engineer as the sphere will always be alongside the engineer
+            // {
+            //     float direction = Vector3.Angle(transform.forward, (other.gameObject.transform.position - this.transform.position));
 
-                if (direction > 90f)
-                {
-                    CameraRigHandler.stageIndex--;
-                }
-                else
-                {
-                    CameraRigHandler.stageIndex++;
-                }
-            }
+            //     if (direction > 90f)
+            //     {
+            //         CameraRigHandler.stageIndex--;
+            //     }
+            //     else
+            //     {
+            //         CameraRigHandler.stageIndex++;
+            //     }
+            // }
         }
         if (rigPosHandler)
         {
