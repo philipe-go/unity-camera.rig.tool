@@ -13,7 +13,7 @@ public class CameraHandler : MonoBehaviour
 
     private void Awake()
     {
-        cameraRig = GameObject.FindGameObjectWithTag("CameraRig");
+        transform.LookAt(cameraRig.transform);
     }
 
     private void Update()
